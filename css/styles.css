@@ -42,11 +42,11 @@ body {
   text-transform: uppercase;
   color: var(--iris);
 }
-.navigation span {
+.navigation .prt {
   color: var(--navy-blue);
 }
 
-.footer span {
+.footer .prt {
   color: var(--cloud);
 }
 
@@ -59,9 +59,12 @@ body {
   color: var(--navy-blue);
 }
 
+.contact {
+  font-style: normal;
+}
+
 .contact-list__link {
   font-family: var(--font-family);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -85,8 +88,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--white);
+  text-align: center;
 }
 
 .hero__btn {
@@ -133,12 +136,17 @@ body {
   background-color: var(--cloud);
 }
 
+.team__item{
+  background-color: var(--white);
+}
+
 .team__title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team__name {
@@ -146,7 +154,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
 }
 
@@ -154,7 +161,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--slate);
 }
 
@@ -163,14 +169,15 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio__cart-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
