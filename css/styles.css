@@ -1,3 +1,4 @@
+/*              Variables              */
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -14,6 +15,17 @@
 
   --font-family: 'Roboto', sans-serif;
   --second-family: 'Raleway', sans-serif;
+}
+
+/*               Reset               */
+a {
+  text-decoration: none;  
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 body {
